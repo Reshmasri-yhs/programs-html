@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <form>
+        <h1>Student Registration</h1>
+        <fieldset>
+            <legend>Basic Information</legend>
+        <label for="name">Name:</label>
+        <input
+        type="text"
+        id="name"/><br><br>
+        <label for="Email">Email:</label>
+        <input
+        type="email"
+        id="email"/><br><br>
+        <label for "Date">DOB:</label>
+        <input 
+        type="date"
+        id="date"/><br><br>
+        <label for "Gender">Gender:</label>
+        <input
+        name="Gender"
+        type="radio"
+        id="Gender"/>Male
+        <input 
+        name="Gender"
+        type="radio"
+        id="Gender"/>Female
+        <input 
+        name="Gender"
+        type="radio"
+        id="Gender"/>Other
+        <br><br>
+        <label for "Age">Age:</label>
+        <input
+        type="number"
+        id="age"
+        min="16"
+        max="72"/>
+        </fieldset>
+        <fieldset>
+            <legend>Academic Details</legend>
+            </legend>
+        <label>Branch:</label>
+        <select>
+            <option>CSE</option>
+            <option>CAI</option>
+            <option>CAIML</option>
+            <option>ECE</option>
+            <option>CCS</option>
+            <option>CIVIL</option>
+            <optioN>CDS</option>
+        </select><br><br>
+        <label for="bio">Bio</label>
+        <textarea id="bio"
+        placeholder= "Enter something Interesting"></textarea>
+        </textarea><br><br>
+        <label>Resume:</label>
+        <input type="file"/><br><br>
+        <label>Skills:</label>
+        <input type="checkbox" id="pythn">
+        <label>python</label>
+        <input type="checkbox" id="java">
+        <label>java</label>
+        <input type="checkbox" id="html">
+        <label>html</label>
+        <input type="checkbox" id="javascript">
+        <label>javascript</label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="Progress">Progress in Tech</label>
+            <input
+            type="range"
+            id="Progress"
+            min="0"
+            max="100"/>
+            </fieldset>
+
+        <input type="checkbox"/>
+        <label>The information is true as per my knowledge
+        </label><br><br>
+        
+        <label>Skills:</label>
+        <input type="checkbox" id="pythn">
+        <label>python</label>
+        <input type="checkbox" id="java">
+        <label>java</label>
+        <input type="checkbox" id="html">
+        <label>html</label>
+        <input type="checkbox" id="javascript">
+        <label>javascript</label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
